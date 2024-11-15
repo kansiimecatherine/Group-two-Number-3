@@ -1,0 +1,96 @@
+.food{
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px black;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    align-items: center;
+    vertical-align: middle;
+}
+.food:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px black;
+}
+img{
+    width: 300px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+
+}
+.rest span{
+    color: orangered;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rest{
+    font-size: xx-large;
+    font: bold;
+    color: black;
+    text-align: center;
+}
+body{
+    background-color: powderblue;
+}
+p span{
+    color: orangered;
+    font-size: xx-large;
+}
+p{
+    font-size: 30px;
+    color: black;
+    font: 400;
+    
+}
+.bar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+
+}
+.bar li{
+    margin: 0 15px;
+}
+.bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 25px 100px;
+    transition: background0.3s;
+    
+
+}
+.bar a:hover{
+    background-color: #555;
+}
+.bar{
+position: fixed;
+top: 14rem;
+left: 0;
+width: 100%;
+background-color: #333;
+padding: 10px 0;
+z-index: 1000;
+display: inline;
+}
+h1{
+    color: orangered;
+    font-size: xx-large;
+}
+h2{
+    color: orangered;
+    font-size: xx-large;
+}
+.description{
+    color: orange;
+    font-size: xx-large;
+}
+
